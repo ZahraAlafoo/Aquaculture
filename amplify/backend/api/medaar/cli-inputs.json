@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "medaar",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\user\\Desktop\\test\\testt\\aquaculture\\amplify\\backend\\api\\medaar\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authMedaar"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-04-27T12:45:43.858Z",
+        "keyDescription": "test"
+      }
+    ]
+  }
+}

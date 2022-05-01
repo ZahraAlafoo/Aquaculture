@@ -1,0 +1,38 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-medaar-staging-14545-authRole",
+      "UnauthRoleArn": "arn:aws:iam::138581057382:role/amplify-medaar-staging-14545-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::138581057382:role/amplify-medaar-staging-14545-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-medaar-staging-14545-deployment",
+      "UnauthRoleName": "amplify-medaar-staging-14545-unauthRole",
+      "StackName": "amplify-medaar-staging-14545",
+      "StackId": "arn:aws:cloudformation:us-east-1:138581057382:stack/amplify-medaar-staging-14545/717077c0-b614-11ec-8b1a-12d3e691f57b",
+      "AmplifyAppId": "d2fcaivhnnjmbt"
+    },
+    "categories": {
+      "function": {
+        "formfunction": {
+          "deploymentBucketName": "amplify-medaar-staging-14545-deployment",
+          "s3Key": "amplify-builds/formfunction-34523038796d67576e65-build.zip"
+        },
+        "numbersfunction": {
+          "deploymentBucketName": "amplify-medaar-staging-14545-deployment",
+          "s3Key": "amplify-builds/numbersfunction-44667959314466793163-build.zip"
+        },
+        "getnotifications": {
+          "deploymentBucketName": "amplify-medaar-staging-14545-deployment",
+          "s3Key": "amplify-builds/getnotifications-627032457436554b2f4f-build.zip"
+        },
+        "crudfunction": {
+          "deploymentBucketName": "amplify-medaar-staging-14545-deployment",
+          "s3Key": "amplify-builds/crudfunction-69524937423636445737-build.zip"
+        }
+      },
+      "auth": {
+        "Medaar": {}
+      }
+    }
+  }
+}

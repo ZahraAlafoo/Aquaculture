@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "userphonenumbers": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

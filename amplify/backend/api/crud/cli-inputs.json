@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/noti": {
+      "name": "/noti",
+      "lambdaFunction": "crudfunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
